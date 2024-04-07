@@ -1,0 +1,197 @@
+.div {
+  background: linear-gradient(91.75deg, #2aa7ff 1.9%, #0c8ce6 100.57%);
+  width: 1440px;
+  height: 110px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  width: 1000px;
+  height: Hug (100px) px;
+  margin-top: 50px;
+  margin-left: 150px;
+  padding: 27px 24px 27px 24px;
+  gap: 29px;
+  border-radius: 15px;
+  opacity: 0px;
+  position: absolute;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.custom-card {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  height: 270px;
+  padding: 24px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 15px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 20px;
+}
+.hospitalimg1 {
+  width: 140px;
+  height: 140px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-heading {
+  color: #14bef0;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+  gap: 0px;
+  opacity: 0px;
+}
+.card-action {
+  width: Hug (236.01px) px;
+  height: Hug (220.38px) px;
+  padding: 137.98px 16.01px 0px 0px;
+  gap: 15.99px;
+  opacity: 0px;
+}
+.card-statecity {
+  color: #414146;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+}
+.card-address {
+  color: #414146;
+  text-align: left;
+}
+.free {
+  color: #02a401;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19.6px;
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e8e8f0;
+  background: #00a500;
+  width: 30px;
+  padding: 4.5px 7.49px 4px 10.8px;
+  gap: 2.79px;
+  border-radius: 3.5px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 35px;
+}
+.ratingval {
+  margin-right: 40px !important;
+  color: #ffffff;
+}
+.card-free {
+  text-align: left;
+}
+.card-sidebar {
+  color: #01a400;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.6px;
+  text-align: center;
+}
+.card-button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+.date-slot{
+  display: flex;
+  flex-direction: column;
+}
+.calender-slot{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 786px;
+height: 269px;
+top: 481px;
+left: 132px;
+gap: 0px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+
+}
+.sidebar{
+  display: flex;
+  justify-content: space-between;
+  align-items:  flex-start;
+}
+
+
+
+.swiper-slide {
+  width: 70px !important/* Ensure Swiper slides adjust to content */
+}
+
+/* Styles for Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007bff;
+  
+}
+.time-slot-table{
+  display: flex;
+}
+.table{
+  display: flex;
+}
+.time-slot-container {
+  margin-top: 10px;
+}
+
+.time-slot-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.time-slot-label {
+  /* font-weight: bold; */
+  margin-right:  20px;
+}
+
+.time-slot-values {
+  display: flex;
+  align-items: flex-start;
+}
+
+.time-slot-values > button {
+  margin-right: 10px;
+  border: 1px solid #2AA7FF;
+ border-radius: 5px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  color: #2AA7FF;
+  width: 61.6px;
+cursor: pointer;
+
+}
+.time-slot-values > button:last-child {
+  margin-right: 0; /* Remove margin for the last button to avoid extra space */
+}

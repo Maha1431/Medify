@@ -1,0 +1,35 @@
+.search-hospital{
+    width: 545px;
+    height: 50px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #F0F0F0
+
+}
+.icons1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-right: 50px !important;
+}
+.card{
+    margin-top: 100px;
+}
+/* .card1{
+    width: Hug (487.55px)px;
+height: Hug (220.38px)px;
+
+gap: 8px;
+opacity: 0px;
+
+} */
+.card-dateSlot{
+margin-right: 10px;
+color: #007100;
+
+}
+.date{
+   display: flex;
+}
