@@ -25,10 +25,27 @@ opacity: 0px;
 
 } */
 .card-dateSlot{
-margin-right: 10px;
 color: #007100;
+border: 1px solid #007100;
+width: 128px;
+height: 32px;
+padding: 7px 6.55px 8px 11.45px;
+border-radius: 3px 0px 0px 0px;
+border: 1px 0px 0px 0px;
 
 }
 .date{
    display: flex;
+   gap: 20px;
+}
+.card-timeSlot{
+    border: 1px solid #2AA7FF;
+    color:#2AA7FF;
+    width: 84px;
+height: 31.59px;
+padding: 7px 10.96px 7.59px 11.44px;
+border-radius: 3px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+
+
 }

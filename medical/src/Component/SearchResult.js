@@ -70,9 +70,10 @@ function SearchResult(props) {
   const handleDateClick = (date) => {
     console.log("Selected date:", date);
 
+    
     // Set selected date
     setSelectedDate(date);
-
+    localStorage.setItem("selectedDate", JSON.stringify(date));
     // Find time slots for the selected date
     const selectedDateSlots = timeSlots.filter(
       (slot) => slot.date.getTime() === date.getTime()
@@ -90,12 +91,11 @@ function SearchResult(props) {
 
 
 
-  const handleTimeSlotClick = (timeSlot, date) => {
+  const handleTimeSlotClick = (timeSlot) => {
     // Combine selected time slot and center details
     const selectedDetails = {
       timeSlot: timeSlot,
       centerDetails: results,
-      date: date,
     };
 
     // Store selected details in local storage
