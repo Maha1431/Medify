@@ -83,8 +83,7 @@ height: 100%;
   height: 400px;
   top: 151px;
   left: 723px;
-  gap: 0px;
-  opacity: 0px;
+  
 }
 .para {
   color: #5c6169;
@@ -202,7 +201,7 @@ width: 398.3px;
 height: 199.15px;
 gap: 10px;
 border-radius: 20px 0px 0px 0px;
-opacity: 0px;
+
 
 }
 .container5{
@@ -213,8 +212,7 @@ opacity: 0px;
       );
       width: 1449px;
       height: 729px;
-      gap: 0px;
-      opacity: 0px;  
+     
 }
 .heading1{
     padding: 30px;
