@@ -3,7 +3,6 @@
   width: 1440px;
   height: 110px;
   border-radius: 16px 0px 0px 0px;
-  opacity: 0px;
   position: relative;
 }
 .form {
@@ -18,7 +17,6 @@
   padding: 27px 24px 27px 24px;
   gap: 29px;
   border-radius: 15px;
-  opacity: 0px;
   position: absolute;
 }
 .content {
@@ -34,14 +32,11 @@
   padding: 24px 0px 0px 0px;
   gap: 10px;
   border-radius: 15px 0px 0px 0px;
-  opacity: 0px;
   margin-bottom: 20px;
 }
 .hospitalimg1 {
   width: 140px;
   height: 140px;
-  gap: 0px;
-  opacity: 0px;
 }
 .card-details {
   display: flex;
@@ -54,15 +49,14 @@
   line-height: 18px;
   text-align: left;
   margin-bottom: 5px;
-  gap: 0px;
-  opacity: 0px;
+ 
 }
 .card-action {
   width: Hug (236.01px) px;
   height: Hug (220.38px) px;
   padding: 137.98px 16.01px 0px 0px;
   gap: 15.99px;
-  opacity: 0px;
+
 }
 .card-statecity {
   color: #414146;
@@ -89,11 +83,10 @@
   align-items: center;
   border-top: 1px solid #e8e8f0;
   background: #00a500;
-  width: 30px;
+  width: 100px;
   padding: 4.5px 7.49px 4px 10.8px;
   gap: 2.79px;
   border-radius: 3.5px 0px 0px 0px;
-  opacity: 0px;
   margin-top: 35px;
 }
 .ratingval {
@@ -129,9 +122,7 @@
 height: 269px;
 top: 481px;
 left: 132px;
-gap: 0px;
 border: 0px 0px 1px 0px;
-opacity: 0px;
 
 }
 .sidebar{

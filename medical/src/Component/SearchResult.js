@@ -228,7 +228,7 @@ function SearchResult(props) {
               >
                 {dateSlots.map((date, index) => (
                   <SwiperSlide key={index}>
-                    <div
+                    <button
                       className={selectedDate === date ? "selected-date" : ""}
                       onClick={() => handleDateClick(date)}
                     >
@@ -241,7 +241,7 @@ function SearchResult(props) {
                             month: "short",
                             day: "numeric",
                           })}
-                    </div>
+                    </button>
                     <div className="time-slot-container">
                       {timeSlots
                         .filter(
